@@ -1,1 +1,11 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
