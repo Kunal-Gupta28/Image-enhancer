@@ -2,7 +2,7 @@ import Loading from "./Loading";
 
 const ImagePreview = (props) => {
     return (
-        <div className="mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 w-full max-w-5xl mx-auto px-4 sm:px-6">
+        <div className=" h-[40%] mt-8 sm:mt-10 md:mt-12 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 w-full max-w-5xl mx-auto px-4 sm:px-6">
             {/* Original Image */}
             <div className="bg-white/80 backdrop-blur-sm shadow-xl rounded-xl overflow-hidden transform transition-all duration-300 hover:shadow-2xl border border-gray-100">
                 <h2 className="text-lg sm:text-xl font-semibold text-center bg-gradient-to-r from-gray-800 to-gray-700 text-white py-2 sm:py-3 flex items-center justify-center space-x-2">

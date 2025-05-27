@@ -2,6 +2,8 @@ import ImageUpload from "./ImageUpload";
 import ImagePreview from "./ImagePreview";
 import { useState } from "react";
 import { enhancedImageAPI } from "../utils/enhanceImageApi";
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Home = () => {
     const [uploadImage, setUploadImage] = useState(null);
@@ -22,14 +24,16 @@ const Home = () => {
     };
 
     return (
-        <>
+        <div className="h-[100%] w-full flex flex-col justify-evenly">
+            <Header/>
             <ImageUpload UploadImageHandler={UploadImageHandler} />
             <ImagePreview
                 loading={loading}
                 uploaded={uploadImage}
                 enhanced={enhancedImage?.image}
             />
-        </>
+            <Footer />
+        </div>
     );
 };
 

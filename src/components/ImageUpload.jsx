@@ -7,7 +7,7 @@ const ImageUpload = (props) => {
     };
 
     return (
-        <div className="bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl p-4 sm:p-6 md:p-8 w-full max-w-2xl mx-auto transform transition-all duration-300 hover:scale-[1.02] border border-gray-100">
+        <div className=" h-[40%] w-[40%] bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl p-4 sm:p-6 md:p-8 w-full max-w-2xl mx-auto transform transition-all duration-300 hover:scale-[1.02] border border-gray-100">
             <label
                 htmlFor="fileInput"
                 className="block w-full cursor-pointer border-2 border-dashed border-gray-200 rounded-xl p-4 sm:p-6 md:p-8 text-center hover:border-blue-500 transition-all duration-300 group bg-gradient-to-br from-gray-50 to-white"
